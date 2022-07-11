@@ -23,9 +23,9 @@ let add = 0
 function sumOfNumbers(arrayOfNumbers) {
   // In this section of my function, I employed the use of the 'for' loop to iterate over the data in the array.
   for ( let s = 0; s < arrayOfNumbers.length; s++)
-  // Above, I used the length property to iterate through the array numbers and below, I implement that same property to sum up the elements.
+  // Above, I used the length property to iterate through the array numbers and below, I use that same property to sum up the elements.
   {add = add + arrayOfNumbers[s]};
-  // Finally in my section, I print this result in my console.
+  // Finally in this section, I print this result in my console.
   console.log(add)
 }
 // To conclude, I execute my function by calling its name with its appointed parameter.
